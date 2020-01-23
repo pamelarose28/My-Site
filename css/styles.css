@@ -3,6 +3,7 @@
 body {
   margin: 0;
   text-align: center;
+  color: #40514e;
   font-family: arial, sans-serif;
 
 }
@@ -17,6 +18,7 @@ h2 {
   font-size:2.5rem;
   color: #272343;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -25,19 +27,39 @@ h3 {
   font-weight: normal;
 }
 
+p {
+  line-height: 1.5;
+}
 
+hr {
+  border: dotted #bae8e8 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #71c9ce;
+  font-family: arial, sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
 .top {
   background-color: #bae8e8;
   position: relative;
   padding-top: 100px;
 }
 .middle-container {
-  background-color: #e3f6f5;
+  background-color: white;
   position: relative;
   }
 
 .bottom-container {
-  background-color: #272343;
+  background-color: #bae8e8;
+  padding: 50px 0 20px;
   }
 .top-cloud {
   position: absolute;
@@ -49,18 +71,22 @@ h3 {
   left: 5%;
 }
 
+.webdev {
+  font-size: 1.2rem;
+  color: #40514e;
+}
 .profilepic {
-  margin-top: 50px;
+  margin-top: 100px;
   border-radius: 50%;
+}
+.intro{
+  width: 30%;
+  margin: auto;
 }
 .skill-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
-}
-
-.skill-row p {
-  line-height: 1.5;
 }
 
 .skills-hola{
@@ -72,11 +98,45 @@ h3 {
 .skills-code {
   float: right;
   margin-left: 30px;
-  width: 25%;
+  width: 20%;
 }
 
 .skills-photo {
   float:left;
   margin-right: 30px;
-  width:25%;
+  width:20%;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #71c9ce 5%, #2a767a 100%);
+	background-color:#71c9ce;
+	border-radius:18px;
+	border:2px solid #c2c2c2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 5px #7e857d;
+  margin: 0 auto 100px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #2a767a 5%, #71c9ce 100%);
+	background-color:#2a767a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.copyright {
+  color: white;
+  padding: 20px 0;
+  font-size: 0.75rem;
+  font-family: arial, sans-serif;
 }
